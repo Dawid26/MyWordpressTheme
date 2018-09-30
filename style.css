@@ -1,0 +1,698 @@
+/*
+Theme Name: Portfolio-Dawid-Mariankowski
+Theme URI: https://dawidmariankowski.pl
+Author: Dawid Mariankowski
+Author URI: https://dawidmariankowski.pl
+Description: The theme this is my private portfolio, Front-end Developer.
+Version: 1.0
+Tags: portfolio, front-end, developer
+*/
+/* skill section */
+p{
+	  font-family: 'Ubuntu', sans-serif;
+  color:#525252;
+  font-size:12px;
+}
+.Count:after{
+  content:"%"
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+.mySkills{
+ max-width: 960px;    
+	margin: 50px auto; 
+	width: 80%;
+	 margin-top: 5px;
+}
+
+.mySkills .skillbar{
+	position: relative;
+}
+.mySkills .skillbar i{
+	   display: block;
+	   width: 60px;
+    height: 30px;
+    left: -41px;
+    top: 1px;
+    background-repeat: no-repeat;
+	    position: absolute;
+}
+.mySkills .skillbar:nth-of-type(1) i {
+    background-image: url('https://dawidmariankowski24.pl/wp-content/uploads/2018/09/html-5.svg');
+}
+
+.mySkills .skillbar:nth-of-type(2) i {
+    background-image: url('https://dawidmariankowski24.pl/wp-content/uploads/2018/09/css.svg');
+}
+.mySkills .skillbar:nth-of-type(3) i {
+    background-image: url('https://dawidmariankowski24.pl/wp-content/uploads/2018/09/jQuery-Logo2.png');
+}
+.mySkills .skillbar:nth-of-type(4) i {
+    background-image: url('https://dawidmariankowski24.pl/wp-content/uploads/2018/09/javascript.svg');
+}
+.mySkills .skillbar:nth-of-type(5) i {
+    background-image: url('https://dawidmariankowski24.pl/wp-content/uploads/2018/09/wordpress-big-logo.svg');
+}
+.mySkills .skillbar:nth-of-type(6) i {
+    background-image: url('https://dawidmariankowski24.pl/wp-content/uploads/2018/09/SEO-research.svg');
+}
+.mySkills .skillbar:nth-of-type(7) i {
+    background-image: url('https://dawidmariankowski24.pl/wp-content/uploads/2018/09/photoshop.svg');
+	
+}
+.mySkills .skillbar:nth-of-type(8) i {
+    background-image: url('https://dawidmariankowski24.pl/wp-content/uploads/2018/09/php.svg');
+}
+.skill-bar-percent {
+
+    color: rgba(0, 0, 0, 1);
+}
+/* end skill section */
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+html #wpadminbar {
+
+    height: 46px;
+    min-width: 300px;
+
+}
+#wpadminbar {
+
+    position: absolute;
+
+}
+#wpadminbar {
+color: #ccc;
+    direction: ltr;
+    
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    height: 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 600px;
+    z-index: 99999999;
+    background: #23282d;
+    margin-top: 200px;
+
+}
+
+.sidebar{
+    border: 1px solid red;
+    width: 20%;
+}
+html{
+overflow-x: hidden}
+
+
+  html {
+    font-size: 10px;
+  }
+
+
+
+  nav {
+    height: 5vh;
+    z-index: 999999999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    align-items: center;
+  }
+  @media only screen and (min-width: 668px) {
+    nav {
+      justify-content: flex-end;
+    }
+  }
+
+  nav li {
+    padding: 0 20px 0 20px;
+    font-size: 1.9rem;
+  }
+  @media only screen and (min-width: 668px) {
+    nav li:last-child {
+      padding-right: 40px;
+    }
+  }
+  @media only screen and (min-width: 668px) {
+    nav li {
+      font-size: 1.7rem;
+    }
+  }
+
+ 
+h1 {
+    font-size: 2.5rem;
+    color: #4db8ec;
+    text-align: center;
+    font-family: 'Open Sans', Arial, sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-40%);
+    margin-top: -84px;
+    width: 100%;
+}
+  @media only screen and (min-width: 1024px) {
+     h1 {
+      font-size: 3.5rem;
+    }
+  }
+  p {
+    font-size: 1.7rem;
+    padding: 0 10px;
+  }
+  @media only screen and (min-width: 1024px) {
+    p {
+      padding: 0 20px;
+    }
+  }
+  h2 {
+
+    
+    font-size: 2.7rem;
+      text-align: left;
+          padding: 0 10px;
+  }
+  @media only screen and (min-width: 1024px) {
+    h2 {
+      padding: 0 20px;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    h2 {
+      text-align: center;
+    }
+   }
+  .portfolio {
+/*    background-color: #f8f8f8; */
+	  background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  .portfolio div img {
+  border-radius: 10px;
+    text-align: center;
+	    max-height: 100%;
+    max-width: 100%;
+  }
+  .portfolio div:last-child {
+    flex-grow: 1;
+  }
+  .portfolio div:last-child img {
+    flex-grow: 1;
+    max-width: 100%;
+    align-self: center;
+    text-align: center;
+  }
+  .portfolio img {
+    border-radius: 10px;
+  }
+  .portfolio p {
+    text-align: left;
+	  padding: 5px 5px;
+  }
+ .portfolio h2 {
+padding: 5px 5px;
+	 border-bottom: 1px solid grey;
+	 margin-bottom: 3px;
+}
+.portfolio div {
+    text-align: center;
+    max-width: 640px;
+    background-color: #fff;
+    margin: 20px;
+	border-radius: 20px;
+	 width: 42%;
+}
+  @media only screen and (min-width: 1024px) {
+    .portfolio div img {
+      max-height: 280px;
+  }
+  }
+
+  .intro-text p {
+    text-align: center;
+    color: #454740;
+  }
+  .alternate-bg {
+    background: #fff;
+  }
+  .upper {
+    text-transform: uppercase;
+  }
+  .center-text {
+    text-align: center;
+  }
+  .v-align {
+    vertical-align: middle;
+  }
+  .absolute-full-width {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-s-beetwen {
+    justify-content: space-between;
+  }
+  .flex-s-around {
+    justify-content: space-around;
+  }
+  .flex-end {
+    justify-content: flex-end;
+  }
+  .flex-v-center {
+    align-items: center;
+  }
+  .inline-block {
+    display: inline-block;
+  }
+  .block {
+    display: block;
+  }
+  .relative {
+    position: relative;
+  }
+  .absolute {
+    position: absolute;
+  }
+  .v-align-transform {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .clearFix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .list-style-none {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .dark-overlay {
+    content: "";
+    z-index: 0;
+    background: none repeat rgba(111, 111, 111, 0.3);
+  }
+  .basic-transiction {
+    transition: all 0.2s ease-in-out;
+  }
+  .reset {
+    margin: 0;
+    padding: 0;
+  }
+  .reset * {
+    margin: 0;
+    padding: 0;
+  }
+  .v-center-absolute {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .h-center-absolute {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .standard-padding {
+    padding: 0 10px;
+  }
+  @media only screen and (min-width: 1024px) {
+    .standard-padding {
+      padding: 0 20px;
+    }
+  }
+  .h2-align {
+    text-align: left;
+  }
+  @media only screen and (min-width: 1024px) {
+    .h2-align {
+      text-align: center;
+    }
+  }
+  .overlay-normal {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right bottom, #4a4a4a, #3c3c3c, #2e2e2e, #212121, #141414);
+    opacity: .22;
+  }
+  .standard-nav {
+    height: 5vh;
+    z-index: 999999999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    align-items: center;
+  }
+  @media only screen and (min-width: 668px) {
+    .standard-nav {
+      justify-content: flex-end;
+    }
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  * * {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 10px;
+  }
+
+  .mainPicture {
+/*     background-image: url('https://dawidmariankowski24.pl/wp-content/uploads/2018/09/front-end-developer-wroclaw.jpg'); */
+	      background-image: url('https://dawidmariankowski24.pl/wp-content/uploads/2018/09/office-front-end-5.jpg');
+
+    background-size: contain;
+    background-repeat: no-repeat;
+   background-position:center 43px;
+    height: 82vh;
+    position: relative;
+	  background-attachment: scroll;
+  }
+
+
+
+
+
+   @media only screen and (min-width: 1024px) {
+    .mainPicture {
+      background-attachment: fixed;
+      }
+}
+
+/*   @media only screen and (min-width: 1024px) {
+    .mainPicture {
+      background-attachment: fixed;
+        background-position: center -200px;
+      }
+}
+  @media only screen and (min-width: 1346px) {
+    .mainPicture {
+       background-position: center -400px;
+      }
+}
+ 
+  @media only screen and (min-width: 1720px) {
+    .mainPicture {
+       background-position: center -600px;
+      }
+} */
+  @media only screen and (min-width: 1024px) {
+    p {
+      padding: 0 20px;
+    }
+  }
+/*   .mainPicture:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right bottom, #4a4a4a, #3c3c3c, #2e2e2e, #212121, #141414);
+    opacity: .22;
+  } */
+  nav {
+    height: 5vh;
+    z-index: 999999999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    align-items: center;
+  }
+  @media only screen and (min-width: 668px) {
+    nav {
+      justify-content: flex-end;
+    }
+  }
+  nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  @media only screen and (min-width: 668px) {
+    nav ul {
+      justify-content: space-between;
+    }
+  }
+  nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  @media only screen and (min-width: 668px) {
+    nav ul {
+      justify-content: space-between;
+    }
+  }
+  nav li {
+    padding: 0 20px 0 20px;
+    font-size: 1.9rem;
+  }
+  @media only screen and (min-width: 668px) {
+    nav li:last-child {
+      padding-right: 40px;
+    }
+  }
+  @media only screen and (min-width: 668px) {
+    nav li {
+      font-size: 1.7rem;
+    }
+  }
+
+  p {
+    font-size: 1.7rem;
+    padding: 0 10px;
+  }
+  @media only screen and (min-width: 1024px) {
+    p {
+      padding: 0 20px;
+    }
+  }
+  h2 {
+    padding: 0 10px;
+    text-align: left;
+    font-size: 2.7rem;
+  }
+  @media only screen and (min-width: 1024px) {
+    h2 {
+      padding: 0 20px;
+        text-align: center;
+    }
+  }
+
+
+nav{
+	border:  1px solid #f4f4f4;
+}
+nav h2{
+	font-size: 2rem;
+	text-align: left;
+	display: inline-block;
+	
+}
+nav a{
+	text-decoration: none;
+	color: black;
+}
+.aboutMe{
+padding: 40px;
+}
+@media only screen and (max-width : 1000px){
+	.portfolio h2{
+		text-align: center
+	}
+	.aboutMe{
+		padding: 8px;
+	}
+}
+.wrapper {
+	    background-color: #f8f8f8;
+}
+
+
+.psdToHtml{
+	max-width: 1200px;
+	font-size: 2rem;
+}
+
+body{overflow-x: hidden}
+@media screen and (max-width: 800px){
+	.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+	width: 66%;
+}
+	.mySkills{
+		margin-left: 50px;
+	}
+	h1 {
+    transform: translateX(-30%);
+    margin-top: -50px;
+	}
+	.portfolio div{
+		width: 100%;
+	}.mySkills{
+	    min-width: 230px;
+    max-width: 230px;
+}
+	.mainPicture{
+		height: 52vh;
+		background-position: center 53px;
+	}
+}
+.mySkills{
+margin: 0 auto;
+	margin-top: 10px;
+}
+footer{
+	text-align: center;
+}
+
+.psdToHtml {
+    max-width: 1800px;
+    font-size: 2rem;
+    display: block;
+    margin: 0 auto;
+}
+.psdToHtml h2{
+	color: black;
+	font-size: 3rem
+}
+.psdToHtml p{
+	text-align: center;
+	margin-top: 20px;
+}
+.aboutMe {
+    padding: 40px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
